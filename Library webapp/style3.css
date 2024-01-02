@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif,'Mitr';
+}
+
+.body,html {
+    height: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+   
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.styled-table th {
+    border : 0px;
+    border-collapse: collapse;
+    background-color: rgb(56, 56, 56); /* Set your desired color */
+    color: white; /* Text color for better visibility */
+    /* You can add more styles like padding, font-size, etc. here */
+  }
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border : 0px;
+}   
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(56, 56, 56);
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+}
